@@ -569,6 +569,52 @@ img{
     top: -21px;
     z-index: -2;
 }
+/* Начало блока stories*/
+.stories{
+    max-width: 1175px;
+    padding: 0 15px;
+    margin: 183px auto 0 auto;
+}
+.stories__inner{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+.stories__variant{
+    display: flex;
+    justify-content: space-between;
+}
+.stories__img {
+    width: 261px;
+    height: 230px;
+    overflow: hidden;
+    border-radius: 8px 8px 0 0;
+}
+.stories__description{
+    max-width: 266px;
+}
+.stories__description h3{
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 30px;
+}
+.stories__description p{
+    font-family: 'Inter';
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 26px;
+    color: #7D7987;
+    margin-bottom: 23px;
+}
+.stories__description a{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28px;
+    color: #FB8F1D;
+    text-decoration: none;
+}
 /* Начало блока footer*/
 footer{
     background-color:#F9F9FB;
