@@ -450,6 +450,125 @@ img{
     animation-delay: 2s; 
     animation-iteration-count: infinite;
 }
+/* Начало блока commet*/
+.comment{
+    max-width: 1100px;
+    padding: 0 15px;
+    margin: 371px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.comment_title{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    color:#000;
+}
+.star-reiting{
+    margin-top: 145px;
+    position: relative;
+    font-size: 40px;
+    display: inline-block;
+    letter-spacing: 10px;
+}
+.star-reiting::before{
+    content: '✦✦✦✦✦';
+    display: block;
+}
+.star-reiting::before{
+    content: '✦✦✦✦✦';
+    display: block;
+}
+.star-reiting__items{
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    height:100%;
+    display: flex;
+    flex-direction:row-reverse;
+    overflow: hidden;
+}
+.star-reiting__item{
+    position: absolute;
+    width: 0%;
+    height: 0%;
+    top: 0px;
+    height: 0px;
+    visibility: hidden;
+    opacity: 0;
+}
+.star-reiting__label{
+    flex: 0 0 20px;
+    height: 100%;
+    cursor: pointer;
+    color:#000;
+}
+.star-reiting__label::before{
+    content: '✦';
+    display: block;
+    transition: color 0.3s ease-in-out;
+}
+.star-reiting__item:checked,
+.star-reiting__item:checked ~ .star-reiting__label{
+    color:rgba(255, 187, 12);
+}
+.star-reiting__label:hover, 
+.star-reiting__label:hover ~ .star-reiting__label,
+.star-reiting__label:checked ~ .star-reiting__label:hover{
+    color:rgba(255, 187, 12);
+}
+.comment__description{
+    max-width: 450px;
+    font-family: 'Mulish';
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    margin-top: 25px;
+}
+.comment__name p{
+    margin: 40px 0 0;
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 48px;
+    color:#000
+}
+.comment__work p{
+    margin: 0;
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 48px;
+    color: rgba(0, 0, 0, 0.85);
+}
+.comment__img--width{
+    width:384px ;
+    height: 491px;
+    position: relative;
+}
+.comment__img::before{
+    content:'';
+    display: block;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background-image: url(../img/plus.png);
+    left: -16px;
+    bottom:-16px;
+}
+.comment__img::after{
+    content:'';
+    display: block;
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    background-image: url(../img/circle.png);
+    right: -21px;
+    top: -21px;
+    z-index: -2;
+}
 /* Начало блока footer*/
 footer{
     background-color:#F9F9FB;
