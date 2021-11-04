@@ -107,3 +107,75 @@ img{
     width: 100%;
     border-top: 2px solid #ffa500;
 }
+/* Начало блока footer*/
+footer{
+    background-color:#F9F9FB;
+    margin-top: 270px;
+}
+.footer__margin{
+    max-width: 1295px;
+    padding: 78px 15px 81px 15px;
+    margin: 0 auto;
+    display: flex;
+    border-bottom: 1px solid  #C4C4C4;
+}
+.description{
+    max-width:390px;
+    margin-right: 108px;
+}
+
+.description__inform{
+    margin-top: 26px;
+    font-family: 'Mulish';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #848484;
+}
+.description__copiroid{
+    margin-top: 80px;
+    font-family: 'Mulish';
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 28px;
+    color: #848484;
+}
+.footer__catalog {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 490px);
+}
+.footer__titile{
+    font-family: 'Mulish';
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 60px;
+    color: #000000;
+    margin: 0;
+}
+.footer__list{
+    text-decoration: none;
+    padding: 0;
+}
+.footer__item{
+    list-style-type: none;
+}
+.footer__link{
+    text-decoration: none;
+    font-family: 'Mulish';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 38px;
+}
+.footer__media{
+    display: flex;
+    justify-content: center;
+    padding: 32px 0;
+    align-items: center;
+}
+.footer_icon{
+    margin-right: 35px;
+}
+.footer_icon:last-child{
+    margin-right: 0;
+}
