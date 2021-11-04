@@ -1,0 +1,109 @@
+img{
+    max-width: 100%;
+    height: auto;
+}
+/* Начало блока header */
+.header{
+    max-width: 1210px;
+    margin: 0 auto 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 15px 0;
+}
+.navigation_account{
+    display: flex;
+}
+.navigation_list{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.navigation_item{
+    margin-left: 35px;
+
+}
+.navigation_item a:hover{
+    color:#202336;
+}
+.navigation_item:first-child{
+    margin-left: 0;
+}
+.navigation_item:last-child{
+    margin-right: 35px;
+}
+.navigation_link{
+    color: #B8BECD;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-weight: 400;
+}
+.account {
+    margin-right: 55px;
+    display: flex;
+    align-items: center;
+}
+.login{
+    border: 1px solid #FB8F1D;
+    border-radius: 8px;
+    font-weight: 500;
+    font-family: 'Inter';
+    font-size: 15px;
+    color: #FB8F1D;
+    text-decoration: none;
+    width: 132px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s ease-in-out;
+}
+.login:hover{
+    color:#fff;
+    background-color:#FB8F1D;
+    transform: skew(-5deg);
+}
+.register{
+    border: 1px solid #FB8F1D;
+    border-radius: 8px;
+    font-weight: 500;
+    font-family: 'Inter';
+    font-size: 15px;
+    color: #fff;
+    background: #FB8F1D;
+    text-decoration: none;
+    width: 132px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 18px;
+    transition: all .5s ease-in-out;
+}
+.register:hover{
+    color: #FB8F1D;
+    background-color:#fff;
+    transform: skew(-5deg);
+}
+.account__btn{
+    background:transparent;
+    border:none;
+    display: none;
+}
+.burger{
+    width: 35px;
+    height: 25px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.burger::after,
+.burger::before,
+.burger div{
+    content:'';
+    display: block;
+    width: 100%;
+    border-top: 2px solid #ffa500;
+}
