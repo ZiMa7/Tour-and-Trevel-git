@@ -687,3 +687,51 @@ footer{
 .footer_icon:last-child{
     margin-right: 0;
 }
+/* медиа запросы на анимацию*/
+@keyframes chart{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        top: 80%;
+        right:-30px;
+    }
+    45%{
+        top: 80%;
+        right: 95%;
+        transform: rotate(90deg);
+    } 
+    60%{
+        right: 95%;
+        top: -30px;
+        transform: rotate(180deg)
+    }  
+    100%{
+        transform: rotate(360deg);
+        right:-30px;
+        top: -30px;
+    } 
+}
+@keyframes lock_{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        bottom: 80%;
+        left: -30px;
+    }
+    45%{
+        bottom: 80%;
+        left: 95%;
+        transform: rotate(90deg);
+    }
+    60%{
+        left: 95%;
+        bottom: -30px;
+    }  
+    100%{
+        transform: rotate(360deg);
+        left: -30px;
+        bottom: -30px;
+    }
+}
