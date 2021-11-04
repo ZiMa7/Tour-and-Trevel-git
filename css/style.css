@@ -166,7 +166,68 @@ img{
     width: 54%;
     flex-shrink: 0;
 }
-
+/* Начало блока inform*/
+.inform{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1240px;
+    padding: 0 15px;
+    margin: 245px auto 0 auto;
+}
+.inform__img{
+    max-width: 660px;
+    width: 55%;
+    flex-shrink: 0;
+}
+.inform__inner {
+    max-width: 480px;
+    margin-left: 100px;
+}
+.inform__title{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000;
+    margin: 0;
+}
+.inform__description{
+    font-family: 'Mulish';
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    margin: 20px 0 0;
+    padding-right: 30px;
+    color: #7D7987;
+}
+.inform__description p{
+    margin: 0;
+}
+.inform__btn{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 16px;
+    background: #FB8F1D;
+    border: 1px solid #FB8F1D;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    width: 164px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+    box-shadow: 0 1px 15px 9px rgba(251, 143, 29, 0.5);
+}
+.inform__btn:hover{
+    color: #FB8F1D;
+    background-color:#fff;
+    transform: skew(-5deg);
+}
 /* Начало блока footer*/
 footer{
     background-color:#F9F9FB;
