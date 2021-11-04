@@ -735,3 +735,397 @@ footer{
         bottom: -30px;
     }
 }
+/* медиа запросы на responsive*/
+@media screen and (max-width:1140px){
+    .inform{
+        margin: 105px auto 0 auto;
+    }
+    .country {
+        margin: 80px auto 0 auto;
+    }
+    .country__inner,
+    .stories__inner {
+        margin-bottom: 10px;
+    }
+    .country__variant,
+    .stories__variant{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .country__showplace,
+    .stories__info{
+        margin: 3px 3px;
+    }
+    .guides{
+        margin: 50px auto 80px auto;
+    }
+    .guides__img{
+        width: 55%;
+    }
+    .guides__description{
+        text-align: justify;
+    }
+    .advantages::before,
+    .advantages::after{
+        display: none;
+    }
+    .advantages{
+        margin: 0 15px 95px;
+    }
+    .comment{
+        margin: 50px auto 0 auto;
+    }
+    .stories{
+        margin: 60px auto 0 auto;
+    }
+    footer {
+        margin-top: 60px;
+    }
+}
+@media screen and (max-width:1000px){
+    .footer__margin{
+        flex-wrap: wrap-reverse;
+        width: 100%;
+        margin: 0 auto;
+        padding: 28px 15px 25px 15px;
+    }
+    .footer__catalog{
+        justify-content: space-around;
+        width: 100%;
+    }
+    .description{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 100%;
+        margin-right: 0;
+    }
+    .description__inform{
+        margin: 0;
+        padding: 35px;
+    }
+    .description__copiroid{
+        margin: 0;
+    }
+    
+}
+@media screen and (max-width:920px){
+    .header{
+        margin: 0 auto 60px;
+    }
+    .navigation_list{
+        display: none;
+    }
+    .account{
+        margin-right: 5px;
+    }
+    .burger{
+        display: flex;
+    }
+    .heading__title{
+        font-size: 50px;
+        line-height: 70px;
+    }
+    .heading__description{
+        margin: 50px 0 0;
+    }
+    .heading__img{
+        width: 50%;
+    }
+    .inform__title{
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .inform__description{
+        text-align: justify;
+    }
+    .star-reiting{
+        margin-top: 70px;
+    }
+    .comment__img::after,
+    .comment__img::before{
+        display: none;
+    }
+    .comment__img img{
+        width: 85%;
+    }
+    .comment_title{
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .comment__description{
+        font-size: 20px;
+        text-align: justify;
+        line-height: 31px;
+        max-width: 360px;
+        margin-right: 20px;
+    }
+    .comment__name p{
+        font-size: 20px;
+        line-height: 40px;
+    }
+} 
+@media screen and (max-width:860px){
+    .advantages{
+        padding: 20px 30px;
+    }
+    .advantages__item{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        border:none;
+        width: 100%;
+    }
+    .advantages__icon{
+        margin: 0 0 20px;
+    }
+}
+
+@media screen and (max-width:790px){
+    .inform__title{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .guides__title{
+        font-size: 30px;
+        line-height: 45px;
+    }
+}
+@media screen and (max-width:768px){
+    .heading{
+        flex-direction: column;
+        position: relative;
+    }
+    .heading__inner{
+        z-index: 2;
+        position: relative;
+        margin-right: 0; 
+    }
+    .heading__title {
+        font-size: 41px;
+        margin-top: 100px;
+    }
+    .heading__description {
+        margin-top: 55px;
+        text-align: center;
+    }
+    .heading__btn {
+        margin: 100px auto 0;
+    }
+    .heading__img{
+        width: 65%;
+        position: absolute;
+        opacity: 30%;
+    }
+    .inform{
+        flex-direction: column;
+        position: relative;
+    }
+    .inform__inner{
+        z-index: 2;
+        position: relative;
+        margin-left: 0px;
+    }
+    .inform__title{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .inform__description{
+        padding-right: 0;
+        color:#000;
+    }
+    .inform__btn {
+        margin: 100px auto 0;
+    }
+    .inform__img{
+        width: 70%;
+        position: absolute;
+        opacity: 20%;
+    }
+    .country__title{
+        font-size: 25px;
+        line-height: 60px;
+    }
+    .guides{
+        flex-direction: column;
+        position: relative;
+        margin: 50px auto 110px auto;
+    }
+    .guides__inner{
+        z-index: 2;
+        position: relative;
+        margin-right: 0; 
+    }
+    .guides__title{
+        text-align: center;
+        margin-bottom: 80px;
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .guides__description{
+        padding-right: 0;
+        color:#000;
+    }
+    .guides__btn {
+        margin: 100px auto 0;
+    }
+    .guides__img{
+        width: 70%;
+        position: absolute;
+        opacity: 20%;
+    }
+    .comment__description {
+        font-size: 18px;
+        line-height: 27px;
+        max-width: 314px;
+    }
+    
+}
+@media screen and (max-width:767px){
+    .comment{
+        display: block;
+        text-align: center;
+    }
+    .comment__description{
+        margin: 0 auto;
+        max-width: 385px;
+    }
+    .comment__img--width{
+        display: none;
+    }
+    .star-reiting {
+        margin-top: 40px;
+    }
+    .stories__title{
+        font-size: 30px;
+    }
+    .stories__description h3{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .stories__description p{
+        line-height: 22px;
+        margin-bottom:0;
+    }
+
+}
+@media screen and (max-width:630px){
+    .heading__title {
+        margin-top: 60px;
+    }
+    .heading__description {
+        margin-top: 35px;
+    }
+    .heading__btn {
+        margin: 50px auto 0;
+    }
+    .inform__btn {
+        margin: 60px auto 0;
+    }
+    .guides__btn{
+        margin: 30px auto 0;
+    }
+}
+@media screen and (max-width:600px){
+    .advantages{
+        flex-direction: column;
+        align-items:center;
+    }
+    .guides{
+        margin: 50px auto 80px auto;
+    }
+    .footer__catalog{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .description{
+        flex-direction: column;
+    }
+    .description__inform{
+        padding: 10px 0;
+        text-align: center;
+    }
+    
+    
+}
+@media screen and (max-width:520px){
+    .header{
+        margin: 0 auto 40px;
+    }
+    .login, .register{
+        display: none;
+    }
+    .account__btn{
+        display: block;
+    }
+    .heading__title {
+        font-size: 30px;
+        margin-top: 40px;
+    }
+    .heading__description {
+        margin-top: 20px;
+    }
+    .heading__btn {
+        margin: 40px auto 0;
+    }
+    .inform__title{
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+    .inform__description{
+        font-size: 13px;
+    }
+    .inform__btn {
+        margin: 15px auto 0;
+    }
+    .country__title{
+        font-size: 15px;
+    }
+    .country__link{
+        font-size: 13px;
+    }
+    .guides__inner{
+        width: 100%;
+    }
+}
+@media screen and (max-width:410px){
+    .heading__title {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .heading__description{
+        font-size: 18px;
+    }
+    .heading__btn {
+        margin: 20px auto 0;
+    }
+    .guides__title {
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width:380px){
+    .inform__title {
+        margin-bottom: 15px;
+    }
+    .inform__btn{
+        font-size: 12px;
+        width: 130px;
+        height: 38px;
+    }
+    .comment__name p {
+        font-size: 20px;
+        line-height: 15px;
+    }
+    .comment__work p{
+        font-size: 16px;
+        line-height: 40px;
+    }
+    .stories__title{
+        font-size: 23px;
+        line-height: 55px;
+    }
+    .description__copiroid{
+        text-align: center;
+    }
+}
